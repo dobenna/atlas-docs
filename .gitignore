@@ -1,0 +1,40 @@
+# Secrets
+.env
+*.env
+*.key
+*.pem
+*.crt
+*.p12
+*.kubeconfig
+id_rsa
+id_ed25519
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ansible
+*.retry
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
